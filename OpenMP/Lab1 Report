@@ -1,0 +1,31 @@
+first phase: 
+without Parallelism 
+
+Time Elapsed         30 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         30 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         30 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         30 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         30 mSecs Total = 32.617277 Check Sum = 100000
+
+
+second phase:
+parallelism without open mp for loop
+
+Time Elapsed          9 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         10 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         10 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         10 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         10 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         10 mSecs Total = 32.617277 Check Sum = 100000
+
+
+second phase: 
+parallelism with open mp for loop
+
+Time Elapsed         12 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         12 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         13 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         14 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         13 mSecs Total = 32.617277 Check Sum = 100000
+Time Elapsed         13 mSecs Total = 32.617277 Check Sum = 100000
+
