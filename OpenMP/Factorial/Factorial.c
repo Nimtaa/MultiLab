@@ -7,6 +7,7 @@
 // Adds an additional library so that timeGetTime() can be used
 #pragma comment(lib, "winmm.lib")
 #define INPUT 7
+#define NUM_THREADS 4
 int IterativeFatorial();
 int main(){
 	printf("%d\n",IterativeFactorial());
@@ -15,7 +16,7 @@ int main(){
 }
 int IterativeFactorial(){
 	int result= 1;
-	#pragma omp parallel num_threads(4)
+	#pragma omp parallel num_threads(NUM_THREADS)
 	{
 	int private_result = 1;
 	#pragma omp for
@@ -43,7 +44,7 @@ int RecursiveFactorial(int n){
 }
 int RecursiveDriver(){
 	int result=0;
-    #pragma omp parallel num_threads(4)
+    #pragma omp parallel num_threads(NUM_THREADS)
     {
         #pragma omp single nowait
         {
