@@ -1,1 +1,0 @@
-FinalProject.exe <Song directory path> <Sample directory path>
