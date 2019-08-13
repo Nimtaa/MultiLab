@@ -1,0 +1,12 @@
+M = 10
+N = 100000000
+_________________
+Elapsed Time : 59.4400098
+
+
+Constant Memory 
+Elapsed Time : 57.099262
+
+
+Shared Memory
+Elapsed Time : 
